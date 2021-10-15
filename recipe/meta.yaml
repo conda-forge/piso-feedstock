@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - python >=3.6.1
-    - pip
+    - pip !2.3
     - poetry
   run:
     - python >=3.6.1,<4
     - pandas >=1,<2
-    - staircase >=2.0.3,<3
+    - staircase >=2.0.4,<3
 
 test:
   imports:
