@@ -1,6 +1,6 @@
 {% set name = "piso" %}
-{% set version = "0.1.0" %}
-{% set sha = "764eb38533b77c5602d9593f2974d9a615f8750c54e20993473015a91a2131c2" %}
+{% set version = "0.2.0" %}
+{% set sha = "74babf647b2693ba93ab94c8173d67462ace4717c4c4ee81ae1ecbf2e6653607" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
