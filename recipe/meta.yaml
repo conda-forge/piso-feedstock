@@ -1,6 +1,6 @@
 {% set name = "piso" %}
-{% set version = "0.4.0" %}
-{% set sha = "494c5549b89b15d6f92f12e95bbdfb080e3e599a568c875f3bec2a09752419fb" %}
+{% set version = "0.5.0" %}
+{% set sha = "a1a80524ce931cbf3b0bcc35d64925d5305979a611976f50828e958e15611c2f" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
   license_file: LICENSE
   summary: 'piso: pandas interval set operations'
   description: |
-    Pandas Interval Set Operations: providing methods for set operations (union, intersection, difference + more) for pandas' Interval, IntervalArray, and IntervalIndex
+    Pandas Interval Set Operations: providing methods for set operations, analytics, lookups and joins on pandas' Interval, IntervalArray and IntervalIndex
   doc_url: https://piso.readthedocs.io/
   dev_url: https://github.com/staircase-dev/piso
 
