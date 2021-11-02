@@ -1,6 +1,6 @@
 {% set name = "piso" %}
-{% set version = "0.3.0" %}
-{% set sha = "d2909ff34dc5614b70e88918c39b55defa0a55c50a6fe14aa614779b483d0e21" %}
+{% set version = "0.4.0" %}
+{% set sha = "494c5549b89b15d6f92f12e95bbdfb080e3e599a568c875f3bec2a09752419fb" %}
 
 package:
   name: {{ name|lower }}
