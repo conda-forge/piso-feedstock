@@ -37,7 +37,7 @@ about:
   license_file: LICENSE
   summary: 'piso: pandas interval set operations'
   description: |
-    Pandas Interval Set Operations: providing methods for set operations (union, intersection, difference + more) for pandas' Interval, IntervalArray, and IntervalIndex
+    Pandas Interval Set Operations: providing methods for set operations, analytics, lookups and joins on pandas' Interval, IntervalArray and IntervalIndex
   doc_url: https://piso.readthedocs.io/
   dev_url: https://github.com/staircase-dev/piso
 
