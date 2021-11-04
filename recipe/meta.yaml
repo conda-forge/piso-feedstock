@@ -1,6 +1,6 @@
 {% set name = "piso" %}
-{% set version = "0.5.0" %}
-{% set sha = "a1a80524ce931cbf3b0bcc35d64925d5305979a611976f50828e958e15611c2f" %}
+{% set version = "0.6.0" %}
+{% set sha = "1440f7f10644993e4aaee178c516c56cdc66bb565121e3823bd63da6cc2ab9e8" %}
 
 package:
   name: {{ name|lower }}
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - python >=3.6.1
-    - pip <21.3
+    - pip
     - poetry
   run:
     - python >=3.6.1,<4
