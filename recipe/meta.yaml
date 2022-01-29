@@ -1,6 +1,6 @@
 {% set name = "piso" %}
-{% set version = "0.7.0" %}
-{% set sha = "b11b167b632e3ddb127e9e921bb25ecb625a5d9603ea8b771c817617f8c4b919" %}
+{% set version = "0.8.0" %}
+{% set sha = "f3f2e3cd0035707a5788178ab1dfa273d656bdcf5a47d2f576d336d75a333642" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - python >=3.6.1,<4
     - pandas >=1,<2
     - numpy >=1.16.0,<2
-    - staircase >=2.0.4,<3
+    - staircase >=2.1.0,<3
 
 test:
   imports:
