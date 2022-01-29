@@ -24,7 +24,7 @@ requirements:
     - python >=3.6.1,<4
     - pandas >=1,<2
     - numpy >=1.16.0,<2
-    - staircase >=2.0.4,<3
+    - staircase >=2.1.0,<3
 
 test:
   imports:
