@@ -1,11 +1,11 @@
-About piso
-==========
+About piso-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/piso-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/staircase-dev/piso
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/piso-feedstock/blob/main/LICENSE.txt)
 
 Summary: piso: pandas interval set operations
 
