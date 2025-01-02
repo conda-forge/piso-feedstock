@@ -1,13 +1,13 @@
 {% set name = "piso" %}
-{% set version = "1.1.0" %}
-{% set sha = "12f31cb2c81a8a1d13ca810281fac1374f037b8e2862fb6b42a0787c8752da88" %}
+{% set version = "1.2.0" %}
+{% set sha = "1453ad71141e1653e7d79cf1f73a2226f62c28311a9c0c8f0cf3603a17a72d6c" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha }}
 
 build:
@@ -17,16 +17,18 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - poetry
   run:
-    - python >=3.8,<4
+    - python >={{ python_min }},<4
     - pandas >=1,<3
-    - numpy >=1.17.0,<2
+    - numpy >=1.17.0,<3
     - staircase >=2.1.0,<3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - piso
 
