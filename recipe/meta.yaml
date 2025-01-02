@@ -17,16 +17,18 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - poetry
   run:
-    - python >=3.8,<4
+    - python >={{ python_min }},<4
     - pandas >=1,<3
-    - numpy >=1.17.0,<2
+    - numpy >=1.17.0,<3
     - staircase >=2.1.0,<3
 
 test:
+  required:
+    - python {{ python_min }}
   imports:
     - piso
 
