@@ -27,7 +27,7 @@ requirements:
     - staircase >=2.1.0,<3
 
 test:
-  required:
+  requires:
     - python {{ python_min }}
   imports:
     - piso
