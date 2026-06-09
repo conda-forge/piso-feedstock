@@ -1,6 +1,6 @@
 {% set name = "piso" %}
-{% set version = "1.2.0" %}
-{% set sha = "1453ad71141e1653e7d79cf1f73a2226f62c28311a9c0c8f0cf3603a17a72d6c" %}
+{% set version = "1.3.0" %}
+{% set sha = "cde376e45b1a5e3620eede3e0af7681f1049492298e5817cb4174f6c29864d6d" %}
 
 package:
   name: {{ name|lower }}
@@ -22,8 +22,8 @@ requirements:
     - poetry
   run:
     - python >={{ python_min }},<4
-    - pandas >=1,<3
-    - numpy >=1.17.0,<3
+    - pandas >=2,<4
+    - numpy >=1.21.2,<3
     - staircase >=2.1.0,<3
 
 test:
